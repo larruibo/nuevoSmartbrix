@@ -33,6 +33,10 @@ body{
 .logo-banner h1{
   font-size: 24px;
 }
+.logo-banner img{
+  height: 80px;
+  overflow: hidden;
+}
 .nav-banner{
   width:55%;
   height: 80px;
@@ -213,6 +217,36 @@ body{
   display: inline-block;
   background-color: #f0f0f0;
 }
+
+.texto-adicional{
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.texto-adicional h3{
+  text-align: left;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 30px;
+}
+.texto-adicional p{
+  color: #646464;
+  font-size: 16px;
+  line-height: 1.875;
+  margin: 30px;
+}
+.texto-adicional a{
+  color: #646464;
+  font-size: 16px;
+  line-height: 1.875;
+  margin: 30px 30px 0 30px;
+  position: absolute;
+  bottom: 50px;
+}
+.texto-adicional a:hover{
+  color: #9eb936;
+}
 .imagen-contenido-peq{
   height: 230px;
   width: 100%;
@@ -279,6 +313,79 @@ body{
   padding-left: 10%;
 }
 
+.contenido-nosotros{
+  padding-top: 130px;
+  height: 960px;
+  width: 100%;
+  position: relative;
+}
+.extendido{
+  height: 1350px;
+}
+.menu-nosotros{
+  height: 960px;
+  width: 25%;
+  position: absolute;
+  left: 0;
+}
+.menu-nosotros li{
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0 0 15px;
+  list-style: none;
+  color: #646464;
+  cursor: pointer;
+}
+.titulo-menu-nosotros{
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 3px solid #e1e1e1;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 18px;
+  color: #000;
+  margin: 0 0 15px;
+}
+.info-nosotros{
+  height: 960px;
+  width: 70%;
+  position: absolute;
+  right: 0;
+}
+.titulo-info-nosotros h3{
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.175;
+  color: #000;
+  font-style: normal;
+  border: 0;
+  padding: 0;
+  margin: 0 0 15px;
+}
+.contenido-info-nosotros p{
+  color: #646464;
+  font-size: 16px;
+  line-height: 1.875;
+  margin: 0 0 30px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.contenido-info-nosotros span{
+  color: #646464;
+  font-size: 16px;
+  line-height: 1.875;
+  display: block;
+}
+.conte{
+  display: none;
+}
+#info-nosotros{
+  display: block;
+}
 
 .sobre-footer{
   position: absolute;
@@ -363,7 +470,7 @@ body{
   border: 3px solid #9eb936;
 }
 .smartbrix{
-  color: #9eb936;
+  color: #9eb936 !important;
 }
 
 #datos-colombia{

@@ -2,12 +2,12 @@ jQuery(document).ready(function(){
 
 alert("Funciona JQuery");
 $('#boton-colombia').click(function(){
-  $('#datos-colombia').hide('slow');
-  $('#datos-panama').show('fast');
+  $('#datos-colombia').hide();
+  $('#datos-panama').show();
 })
 $('#boton-panama').click(function(){
-  $('#datos-panama').hide('slow');
-  $('#datos-colombia').show('fast');
+  $('#datos-panama').hide();
+  $('#datos-colombia').show();
 })
 
 });

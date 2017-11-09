@@ -1,0 +1,48 @@
+jQuery(document).ready(function(){
+
+$("#nosotros").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#nosotros").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-nosotros").slideToggle();
+})
+$("#localizacion").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#localizacion").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#tamanio").toggleClass("extendido");
+  $("#info-localizacion").slideToggle();
+})
+$("#mision-vision").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#mision-vision").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-mision-vision").slideToggle();
+})
+$("#calidad").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#calidad").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-calidad").slideToggle();
+})
+$("#politica").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#politica").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-politica").slideToggle();
+})
+$("#privacidad").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#privacidad").toggleClass("smartbrix");
+})
+$("#terminos").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#terminos").toggleClass("smartbrix");
+})
+
+});
