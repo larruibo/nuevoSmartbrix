@@ -319,14 +319,16 @@ body{
   width: 100%;
   position: relative;
 }
+
 .extendido{
   height: 1350px;
 }
 .menu-nosotros{
   height: 960px;
-  width: 25%;
+  width: 20%;
   position: absolute;
   left: 0;
+  padding-left: 5%;
 }
 .menu-nosotros li{
   line-height: normal;
@@ -337,6 +339,9 @@ body{
   list-style: none;
   color: #646464;
   cursor: pointer;
+}
+.menu-nosotros li:hover{
+  color: #9eb936;
 }
 .titulo-menu-nosotros{
   width: 100%;
@@ -480,6 +485,53 @@ body{
 #datos-panama{
   display: none;
   transition: .3s;
+}
+
+.contenido-con-imagen{
+  padding-top: 80px;
+  height: 1460px;
+  width: 100%;
+  position: relative;
+}
+.banner-imagen{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 2;
+}
+.banner-imagen img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.texto-imagen{
+  background-color: rgba(0,0,0,0.6);
+  width: 360px;
+  height: 200px;
+  position: absolute;
+  top: -350px;
+  z-index: 3;
+  padding: 20px 30px;
+  margin-left: 10%;
+}
+.texto-imagen h3{
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  line-height: 48px;
+  margin: 0 0 10px;
+  padding: 0;
+  border-bottom: 3px solid rgba(255,255,255,0.5);
+  padding-bottom: 10px;
+}
+.texto-imagen p{
+  font-size: 14px;
+  line-height: 26px;
+  font-family: 'Open Sans',sans-serif;
+  color: #fff;
+  margin: 0;
 }
 
 .footer{
