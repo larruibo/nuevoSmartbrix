@@ -9,6 +9,7 @@ $("#uno").click(function(){
 })
 $("#dos").click(function(){
   $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
   $("#dos").toggleClass("smartbrix");
   $(".conte").hide();
   $("#tamanio").toggleClass("extendido");
@@ -25,6 +26,7 @@ $("#cuatro").click(function(){
   $(".menu").removeClass("smartbrix");
   $("#tamanio").removeClass("extendido");
   $("#cuatro").toggleClass("smartbrix");
+  $("#tamanio").toggleClass("extendido");
   $(".conte").hide();
   $("#info-cuatro").slideToggle();
 })
