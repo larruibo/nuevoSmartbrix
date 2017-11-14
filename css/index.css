@@ -342,12 +342,15 @@ body{
   width: 20%;
   position: absolute;
   left: 0;
-  padding-left: 5%;
+  padding-left: 3%;
+}
+.menu-vista-adicional ul{
+  padding-left: 0;
 }
 .menu-vista-adicional li{
   line-height: normal;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   margin: 0 0 15px;
   list-style: none;
@@ -372,12 +375,13 @@ body{
   height: 960px;
   width: 70%;
   position: absolute;
-  right: 0;
+  right: 3%;
 }
 .imagen-info-vista-adicional{
   position: relative;
   width: 100%;
   height: 200px;
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 .imagen-info-vista-adicional img{
@@ -423,7 +427,28 @@ body{
 .conte{
   display: none;
 }
-
+.ventajas-descripcion{
+  width: 100%;
+  height: auto;
+}
+.ventaja{
+  display: inline-block;
+  width: 32%;
+  height: auto;
+  vertical-align: top;
+}
+.ventaja h5{
+  font-size: 16px;
+  text-align: center;
+  color: #9eb936;
+  margin-bottom: 5px;
+}
+.ventaja p{
+  padding: 2%;
+  margin-top: 0;
+  font-size: 15px !important;
+  text-align: center !important;
+}
 .listas{
   width: 95%;
   height: auto;
