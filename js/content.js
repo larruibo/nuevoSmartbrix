@@ -1,0 +1,49 @@
+jQuery(document).ready(function(){
+
+$("#uno").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#uno").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-uno").slideToggle();
+})
+$("#dos").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#dos").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#tamanio").toggleClass("extendido");
+  $("#info-dos").slideToggle();
+})
+$("#tres").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#tres").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-tres").slideToggle();
+})
+$("#cuatro").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#cuatro").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-cuatro").slideToggle();
+})
+$("#cinco").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#cinco").toggleClass("smartbrix");
+  $(".conte").hide();
+  $("#info-cinco").slideToggle();
+})
+$("#seis").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#seis").toggleClass("smartbrix");
+})
+$("#siete").click(function(){
+  $(".menu").removeClass("smartbrix");
+  $("#tamanio").removeClass("extendido");
+  $("#siete").toggleClass("smartbrix");
+})
+
+});
