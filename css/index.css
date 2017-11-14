@@ -326,7 +326,7 @@ body{
 
 .contenido-vista-adicional{
   padding-top: 130px;
-  height: 960px;
+  height: 1060px;
   width: 100%;
   position: relative;
 }
@@ -335,7 +335,7 @@ body{
 }
 
 .extendido{
-  height: 1300px;
+  height: 1450px;
 }
 .menu-vista-adicional{
   height: 960px;
@@ -373,6 +373,17 @@ body{
   width: 70%;
   position: absolute;
   right: 0;
+}
+.imagen-info-vista-adicional{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.imagen-info-vista-adicional img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 .titulo-info-vista-adicional h3{
   font-weight: 600;
