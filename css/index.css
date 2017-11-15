@@ -101,6 +101,7 @@ body{
 .imagen-contenido-inicio{
   position: absolute;
   top:80px;
+  width: 100%;
 }
 .imagen-contenido-inicio img{
   width: 100%;
@@ -422,6 +423,59 @@ body{
 .imagen-contenido-info-vista-adicional img{
   width: 100%;
   height: 300px;
+  object-fit: cover;
+}
+.galeria-proyectos{
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+.proyecto{
+  width: calc(100%/3);
+  height: 260px;
+  display: inline-block;
+  margin-bottom: 40px;
+  position: relative;
+}
+.interior-proyecto{
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 260px;
+  text-align: center;
+}
+.interior-proyecto:hover .cover-imagen{
+  visibility: visible;
+  opacity: 1;
+}
+.cover-imagen{
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.interior-proyecto h1{
+  color: #9eb936;
+  margin-top: 80px;
+  font-size: 20px;
+  width: 100%;
+  z-index: 2;
+}
+.interior-proyecto span{
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  z-index: 2;
+}
+.interior-proyecto img{
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .conte{
