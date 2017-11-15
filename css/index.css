@@ -123,13 +123,15 @@ body{
   position: absolute;
   top: 130px;
   width: 50%;
-  padding-left: 8%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgba(0,0,0,0.5);
   text-align: center;
   z-index: 3;
 }
 .titulo-inicio h1{
   color:  white;
-  font-size: 36px;
+  font-size: 25px;
   text-transform: uppercase;
   text-shadow: 1px 1px #363c40;
 }
