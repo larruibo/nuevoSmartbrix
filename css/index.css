@@ -21,7 +21,7 @@ body{
   z-index: 15;
 }
 .logo-banner{
-  width: 25%;
+  width: 15%;
   height: 60px;
   display: flex;
   align-items: center;
@@ -29,12 +29,13 @@ body{
   position: absolute;
   left: 0;
   color: #fff;
+  overflow: hidden;
 }
 .logo-banner h1{
   font-size: 24px;
 }
 .logo-banner img{
-  height: 60px;
+  height: 100px;
   overflow: hidden;
 }
 .nav-banner{
@@ -44,7 +45,7 @@ body{
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 18%;
+  right: 22%;
   font-size: 14px;
 }
 .nav-banner a{
@@ -348,7 +349,7 @@ body{
 }
 
 .extendido{
-  height: 1350px;
+  height: 1350px !important;
 }
 .menu-vista-adicional{
   height: 960px;
@@ -575,8 +576,7 @@ body{
 }
 .local-footer{
   position: absolute;
-  left: 0;
-  padding-left: 5%;
+  left: 3%;
   width: 35%;
   height: 60px;
   vertical-align: middle;
@@ -622,7 +622,7 @@ body{
 }
 .boton-footer{
   position: absolute;
-  right: 0;
+  right: 3%;
   width: 20%;
   vertical-align: middle;
   text-align: right;
@@ -722,11 +722,10 @@ body{
   position: relative;
 }
 .columna-1{
-  width: 25%;
+  width: 23%;
   display: inline-block;
   position: absolute;
-  left: 0;
-  padding-left: 5%;
+  left: 3%;
   padding-top: 20px;
   height: 120px;
 }
@@ -740,9 +739,9 @@ body{
   width: 35%;
 }
 .columna-2{
-  width: 25%;
+  width: 23%;
   position: absolute;
-  left: 30%;
+  left: 23%;
   padding-left: 5%;
   display: inline-block;
   padding-top: 20px;
@@ -758,13 +757,14 @@ body{
   width: 35%;
 }
 .columna-3{
-  width: 25%;
+  width: 20%;
   position: absolute;
   right: 0;
   display: inline-block;
   height: 120px;
   padding-left: 5%;
   padding-top: 20px;
+  text-align: center;
 }
 .columna-3 h4{
   font-size: 22px;
@@ -778,11 +778,11 @@ body{
   margin-right: 4%;
 }
 .fila-1{
-  padding-left: 5%;
   width: 95%;
   height: 40px;
   position: absolute;
   top: 160px;
+  left: 3%;
   padding-top: 20px;
 }
 .fila-1 a{
