@@ -15,14 +15,14 @@ body{
 .banner{
   background-color: black;
   position: fixed;
-  height: 80px;
+  height: 60px;
   width: 100%;
   font-size: 14px;
   z-index: 15;
 }
 .logo-banner{
   width: 25%;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,12 +34,12 @@ body{
   font-size: 24px;
 }
 .logo-banner img{
-  height: 80px;
+  height: 60px;
   overflow: hidden;
 }
 .nav-banner{
   width:55%;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,15 +62,15 @@ body{
 }
 .nav-banner a:hover{
   color: #969696;
-  border-bottom: 3px solid #9eb936;
+  border-bottom: 3px solid #37ba3a;
 }
 .contacto-banner{
   width: 13%;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #9eb936;
+  background-color: #37ba3a;
   position: absolute;
   right: 0;
   text-align: center;
@@ -78,7 +78,7 @@ body{
   transition: .2s;
 }
 .contacto-banner:hover{
-  background-color: darkgreen;
+  background-color: #247c25;
 }
 .contacto-banner h1{
   font-size: 16px;
@@ -88,7 +88,7 @@ body{
 
 
 .contenido{
-  height: 2200px;
+  height: 2100px;
   width: 100%;
   position: relative;
 }
@@ -96,11 +96,11 @@ body{
   height:815px;
   position: relative;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 .imagen-contenido-inicio{
   position: absolute;
-  top:80px;
+  top:60px;
   width: 100%;
 }
 .imagen-contenido-inicio img{
@@ -137,7 +137,7 @@ body{
 }
 .titulo-inicio span{
   display: inline;
-  color: #9eb936;
+  color: #37ba3a;
 }
 
 .ventanas-flotantes{
@@ -259,7 +259,7 @@ body{
   bottom: 50px;
 }
 .texto-adicional a:hover{
-  color: #9eb936;
+  color: #37ba3a;
 }
 .imagen-contenido-peq{
   height: 230px;
@@ -276,6 +276,16 @@ body{
 .imagen-contenido-gra{
   height: 100%;
   width: 100%;
+}
+.video-contenido-gra{
+  width: 100%;
+  height: 236px;
+  position: absolute;
+  top: 165px;
+}
+.video-contenido-gra iframe{
+  width: 100%;
+  height: 236px;
 }
 .imagen-contenido-gra img{
   height: 100%;
@@ -328,17 +338,17 @@ body{
 }
 
 .contenido-vista-adicional{
-  padding-top: 130px;
-  height: 1060px;
+  padding-top: 100px;
+  height: 1000px;
   width: 100%;
   position: relative;
 }
 #tamanio-soluciones{
-  height: 1380px;
+  height: 1360px;
 }
 
 .extendido{
-  height: 1450px;
+  height: 1350px;
 }
 .menu-vista-adicional{
   height: 960px;
@@ -361,7 +371,7 @@ body{
   cursor: pointer;
 }
 .menu-vista-adicional li:hover{
-  color: #9eb936;
+  color: #37ba3a;
 }
 .titulo-menu-vista-adicional{
   width: 100%;
@@ -394,7 +404,7 @@ body{
 }
 .titulo-info-vista-adicional h3{
   font-weight: 600;
-  font-size: 42px;
+  font-size: 34px;
   line-height: 1.175;
   color: #000;
   font-style: normal;
@@ -463,8 +473,8 @@ body{
   transition: opacity .2s, visibility .2s;
 }
 .interior-proyecto h1{
-  color: #9eb936;
-  margin-top: 80px;
+  color: #37ba3a;
+  margin-top: 60px;
   font-size: 20px;
   width: 100%;
   z-index: 2;
@@ -496,7 +506,7 @@ body{
 .ventaja h5{
   font-size: 16px;
   text-align: center;
-  color: #9eb936;
+  color: #37ba3a;
   margin-bottom: 5px;
 }
 .ventaja p{
@@ -528,7 +538,7 @@ body{
 .contenido-vista-principal{
   width: 100%;
   position: relative;
-  height: 800px;
+  height: 410px;
 }
 .contenido-info-vista-principal p{
   font-size: 18px;
@@ -556,12 +566,12 @@ body{
 
 .sobre-footer{
   position: absolute;
-  bottom: 280px;
+  bottom: 220px;
   width: 100%;
   height: 60px;
   background-color: #333;
   z-index: 10;
-  padding: 45px 0;
+  padding: 25px 0;
 }
 .local-footer{
   position: absolute;
@@ -587,7 +597,7 @@ body{
   left: 40%;
   width: 20%;
   height: 40px;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .hora-footer span{
   font-size: 16px;
@@ -601,7 +611,7 @@ body{
   right: 20%;
   width: 20%;
   height: 40px;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .telefono-footer span{
   font-size: 16px;
@@ -633,11 +643,11 @@ body{
 }
 .boton-footer button:hover{
   color: #fff;
-  background-color: #9eb936;
-  border: 3px solid #9eb936;
+  background-color: #37ba3a;
+  border: 3px solid #37ba3a;
 }
 .smartbrix{
-  color: #9eb936 !important;
+  color: #37ba3a !important;
 }
 
 #datos-colombia{
@@ -650,8 +660,8 @@ body{
 }
 
 .contenido-con-imagen{
-  padding-top: 80px;
-  height: 1300px;
+  padding-top: 60px;
+  height: 1200px;
   width: 100%;
   position: relative;
 }
@@ -700,7 +710,7 @@ body{
   position: absolute;
   bottom: 0;
   background-color: #000;
-  height: 280px;
+  height: 230px;
   width: auto;
   right: 0;
   left: 0;
@@ -708,7 +718,7 @@ body{
 }
 .contenido-footer{
   width: 100%;
-  height: 280px;
+  height: 230px;
   position: relative;
 }
 .columna-1{
@@ -717,8 +727,8 @@ body{
   position: absolute;
   left: 0;
   padding-left: 5%;
-  padding-top: 40px;
-  height: 160px;
+  padding-top: 20px;
+  height: 120px;
 }
 .columna-1 a{
   text-decoration: none;
@@ -735,8 +745,8 @@ body{
   left: 30%;
   padding-left: 5%;
   display: inline-block;
-  padding-top: 40px;
-  height: 160px;
+  padding-top: 20px;
+  height: 120px;
 }
 .columna-2 a{
   text-decoration: none;
@@ -752,9 +762,9 @@ body{
   position: absolute;
   right: 0;
   display: inline-block;
-  height: 160px;
+  height: 120px;
   padding-left: 5%;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .columna-3 h4{
   font-size: 22px;
@@ -770,9 +780,9 @@ body{
 .fila-1{
   padding-left: 5%;
   width: 95%;
-  height: 60px;
+  height: 40px;
   position: absolute;
-  top: 200px;
+  top: 160px;
   padding-top: 20px;
 }
 .fila-1 a{
