@@ -589,11 +589,11 @@ body{
   color: white;
   font-size: 22px;
   text-transform: uppercase;
-  border-left: 4px solid #9eb936;
+  border-left: 4px solid #37ba3a;
   padding-left: 5%;
 }
 .texto-contacto strong{
-  color: #9eb936;
+  color: #37ba3a;
 }
 .form{
   width: 60%;
@@ -620,7 +620,7 @@ body{
     color: white;
 }
 #boton-enviar{
-  background-color: #9eb936;
+  background-color: #37ba3a;
   border: none;
   width: 30%;
   margin-left: auto;
