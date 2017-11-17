@@ -8,5 +8,8 @@ $('#boton-panama').click(function(){
   $('#datos-panama').hide();
   $('#datos-colombia').show();
 })
+$('#contacto').click(function(){
+  $('#formulario').slideToggle();
+})
 
 });
