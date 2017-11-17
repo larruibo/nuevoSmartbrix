@@ -572,7 +572,7 @@ body{
   width: 100%;
   position: fixed;
   top: 60px;
-  z-index: 10;
+  z-index: 20;
 }
 .contacto{
   height: 500px;
