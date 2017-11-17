@@ -579,7 +579,7 @@ body{
   width: 400px;
   position: fixed;
   margin-left: 860px;
-  z-index: 10;
+  z-index: 20;
 }
 .formulario{
   background-color: rgba(0, 0, 0, 0.85);
