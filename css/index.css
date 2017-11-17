@@ -573,12 +573,13 @@ body{
   height: 500px;
   position: fixed;
   top: 60px;
+  z-index: 20;
 }
 .contacto{
   height: 700px;
   width: 400px;
   position: fixed;
-  margin-left: 860px;
+  margin-left: 890px;
   z-index: 10;
 }
 .formulario{
