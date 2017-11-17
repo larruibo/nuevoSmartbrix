@@ -27,7 +27,7 @@ body{
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 0;
+  left: 6%;
   color: #fff;
   overflow: hidden;
 }
@@ -45,7 +45,7 @@ body{
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 22%;
+  right: 15%;
   font-size: 14px;
 }
 .nav-banner a{
@@ -54,7 +54,7 @@ body{
   margin-left: 2%;
   margin-right: 2%;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   padding-top: 5px;
   padding-bottom: 5px;
   border-bottom: 3px solid black;
@@ -85,6 +85,7 @@ body{
 .contacto-banner h1{
   font-size: 16px;
   margin: 0;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -558,6 +559,7 @@ body{
   display: inline-block;
   position: absolute;
   right: 0;
+  top: 20px;
 }
 .listas-info-vista-principal .listas{
   padding: 2.5%;
@@ -619,6 +621,7 @@ body{
     width: 100%;
     border: 1px solid white;
     color: white;
+    resize: none;
 }
 #boton-enviar{
   background-color: #37ba3a;
@@ -636,7 +639,6 @@ body{
 }
 #formulario{
   display: none;
-  transition: .3s;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    white;
@@ -660,10 +662,10 @@ body{
   position: absolute;
   bottom: 220px;
   width: 100%;
-  height: 60px;
+  height: 70px;
   background-color: #333;
   z-index: 10;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 .local-footer{
   position: absolute;
@@ -786,7 +788,7 @@ body{
   line-height: 48px;
   margin: 0 0 10px;
   padding: 0;
-  border-bottom: 3px solid rgba(255,255,255,0.5);
+  border-bottom: 3px solid #37ba3a;
   padding-bottom: 10px;
 }
 .texto-imagen p{
