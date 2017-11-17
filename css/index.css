@@ -604,6 +604,7 @@ body{
   margin-right: 20%;
   position: absolute;
   top:140px;
+  font-size: 16px;
 }
 .form input{
   background-color: transparent;
@@ -612,8 +613,10 @@ body{
   padding: 3%;
   width: 100%;
   border: 1px solid white;
+  color: white;
 }
 .form textarea{
+    font-family: 'Titillium Web', sans-serif;
     background-color: transparent;
     display: block;
     margin-bottom: 2vh;
@@ -622,6 +625,7 @@ body{
     border: 1px solid white;
     color: white;
     resize: none;
+    color: white;
 }
 #boton-enviar{
   background-color: #37ba3a;
