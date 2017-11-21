@@ -9,7 +9,12 @@ $('#boton-panama').click(function(){
   $('#datos-colombia').show();
 })
 $('#contacto').click(function(){
+  $('#menu-responsive').hide();
   $('#formulario').slideToggle();
+})
+$('#menu').click(function(){
+  $('#formulario').hide();
+  $('#menu-responsive').slideToggle();
 })
 
 });

@@ -902,3 +902,240 @@ body{
 .hb a:hover{
   color: #fff;
 }
+.menu-banner{
+  display: none;
+  width: 13%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37ba3a;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  transition: .2s;
+  cursor: pointer;
+}
+.menu-banner:hover{
+  background-color: #247c25;
+}
+.menu-banner h1{
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#menu{
+  display: none;
+}
+#menu-responsive{
+  display: none;
+}
+.menu-banner-responsive{
+  position: fixed;
+  top: 60px;
+  width: 200px;
+  height: 370px;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+.menu-banner-responsive ul{
+  padding-top: 20px;
+}
+.menu-banner-responsive li{
+  display: block;;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+}
+.menu-banner-responsive a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1259px)
+{
+  .logo-banner{
+    left: 2%;
+    width: 14%;
+  }
+  .nav-banner{
+    width: 65%;
+  }
+  .extendido{
+    height: 1420px !important;
+  }
+  .contenido-con-imagen{
+    height: 1260px;
+  }
+  .contacto{
+    position: fixed;
+    right: 0;
+  }
+  #proyectos{
+    height: 1580px !important;
+  }
+  .proyecto{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 860px)
+{
+  .logo-banner{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .nav-banner{
+    display: none;
+  }
+  .contenido{
+    height: 2550px;
+  }
+  .contacto-banner{
+    width: 100px;
+  }
+  #menu{
+    display: flex;
+  }
+  .ventanas-flotantes{
+    margin-top: -270px;
+    height: 540px;
+  }
+  .contenido-flotante{
+    width: calc(100%/2);
+  }
+  .contenido-adicional{
+    width: 100%;
+    height: 300px;
+  }
+  .imagen-contenido-peq{
+    height: 300px;
+    width: 50%;
+    top:0;
+    left: 0;
+  }
+  .texto-adicional{
+    height: 300px;
+    width: 50%;
+    top:0;
+    right: 0;
+  }
+  .imagen-contenido-gra{
+    width: 100%;
+    height: 300px;
+  }
+  .video-contenido-gra{
+    width: 100%;
+    height: 236px;
+    position: absolute;
+    top: 32px;
+  }
+  .texto-adicional a{
+    bottom: 10px;
+  }
+  .sobre-footer{
+    height: 140px;
+  }
+  .local-footer{
+    width: 60%;
+  }
+  .hora-footer{
+    text-align: right;
+    width: 40%;
+    left: auto;
+    right: 10%;
+  }
+  .telefono-footer{
+    left: 3%;
+    width: 40%;
+    top: 70px;
+  }
+  .boton-footer{
+    top: 70px;
+    right: 10%;
+  }
+  .contenido-vista-adicional{
+    height: 1450px !important;
+  }
+  .extendido{
+    height: 1740px !important;
+  }
+  .contenido-con-imagen{
+    height: 1450px !important;
+  }
+  #proyectos{
+    height: 1650px !important;
+  }
+}
+@media screen and (max-width: 670px)
+{
+  .titulo-inicio{
+    width: 94%;
+    top: 20px;
+  }
+  .ventanas-flotantes{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contenido-imagen p{
+    margin: 0;
+  }
+  .video-contenido{
+    height: 400px;
+  }
+  .imagen-contenido-inicio img{
+    height: 400px;
+  }
+  .info-adicional{
+    height: 1000px;
+  }
+  .contenido-adicional{
+    height: 350px;
+  }
+  .imagen-contenido-adicional{
+    height: 350px;
+  }
+  .imagen-contenido-peq img{
+    height: 350px;
+  }
+  .texto-adicional{
+    height: 350px;
+  }
+  .imagen-contenido-gra{
+    height: 350px;
+  }
+  .video-contenido-gra{
+    top: 57px;
+  }
+  .contenido-vista-adicional{
+    padding-top: 60px;
+  }
+  .menu-vista-adicional{
+    position: relative;
+    height: 150px;
+    display: block;
+    padding-left: 0;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .info-vista-adicional{
+    width: 94%;
+    left: 3%;
+    position: relative;
+  }
+  .contenido-vista-adicional{
+    height: 1550px !important;
+  }
+  .titulo-info-vista-adicional h3{
+    text-align: center;
+  }
+  .extendido{
+    height: 1850px !important;
+  }
+}
