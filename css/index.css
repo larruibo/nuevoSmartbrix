@@ -1316,7 +1316,7 @@ body{
   .contenido{
     height: 3650px;
   }
-  .menu-vista-adicional{
+  .menu-vista-adicional li{
     font-size: 18px;
   }
   .contenido-info-vista-adicional p{
