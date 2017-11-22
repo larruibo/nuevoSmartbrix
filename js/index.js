@@ -18,3 +18,6 @@ $('#menu').click(function(){
 })
 
 });
+function onSubmit(token) {
+  document.getElementById("contactForm").submit();
+}

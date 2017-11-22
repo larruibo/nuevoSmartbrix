@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="js/index.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="icon" type="image/png" href="logo.png" />
   </head>
   <body>
@@ -26,9 +27,6 @@
             <a href="./campamentos">Campamentos</a>
             <a href="./modulos">Módulos</a>
             <a href="./proyectos">Proyectos</a>
-          </div>
-          <div id="menu" class="menu-banner">
-            <h1>Menú</h1>
           </div>
           <div id="contacto" class="contacto-banner">
             <h1>Contacto</h1>
@@ -198,28 +196,22 @@
                 <span>Solicita</span>
                 <span><strong>Tu cotización</strong></span>
               </div>
-              <form class="form" action="index.html" method="post">
+              <form id="contactForm" class="form" action="index.html" method="post">
                 <input type="text" name="name" value="" placeholder="Nombre: ">
                 <input type="text" name="telephone" value="" placeholder="Teléfono: ">
                 <input type="text" name="email" value="" placeholder="E-mail: ">
                 <input type="text" name="country" value="" placeholder="País">
                 <textarea name="description" rows="4" cols="56" placeholder="Descripción de la necesidad"></textarea>
-                <input id="boton-enviar" type="submit" name="" value="Enviar">
+                <button
+                  class="g-recaptcha"
+                  data-sitekey="6Leq2TQUAAAAAMrEtsMqzn_L4F9dde0uEYD-P4hd"
+                  data-callback="onSubmit">
+                  Enviar
+                </button>
               </form>
             </div>
           </div>
         </div>
-      </div>
-      <div id="menu-responsive" class="menu-banner-responsive">
-        <ul>
-          <li><a href="./nosotros/">Nosotros</a></li>
-          <li><a href="./salones">Educativas</a></li>
-          <li><a href="./oficinas">Oficinas</a></li>
-          <li><a href="./bodegas">Bodegas</a></li>
-          <li><a href="./campamentos">Campamentos</a></li>
-          <li><a href="./modulos">Módulos</a></li>
-          <li><a href="./proyectos">Proyectos</a></li>
-        </ul>
       </div>
       <div class="footer">
         <div class="contenido-footer">
@@ -250,3 +242,4 @@
       </div>
   </body>
 </html>
+<?php include_once('sendmail.php'); ?>

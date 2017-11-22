@@ -1316,14 +1316,20 @@ body{
   .contenido{
     height: 3650px;
   }
+  .menu-vista-adicional{
+    font-size: 18px;
+  }
   .contenido-info-vista-adicional p{
     line-height: normal;
   }
+  .contenido-info-vista-adicional ul{
+    padding: 0;
+  }
   .contenido-vista-adicional{
-    height: 1700px !important;
+    height: 1780px !important;
   }
   .extendido{
-    height: 2100px !important;
+    height: 2170px !important;
   }
   .mapa-grande{
     display: none;

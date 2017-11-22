@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="../js/index.js"></script>
     <script src="../js/content.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="icon" type="image/png" href="../logo.png" />
   </head>
   <body>
@@ -164,13 +165,18 @@
                 <span>Solicita</span>
                 <span><strong>Tu cotización</strong></span>
               </div>
-              <form class="form" action="index.html" method="post">
+              <form id="contactForm" class="form" action="./" method="post">
                 <input type="text" name="name" value="" placeholder="Nombre: ">
                 <input type="text" name="telephone" value="" placeholder="Teléfono: ">
                 <input type="text" name="email" value="" placeholder="E-mail: ">
                 <input type="text" name="country" value="" placeholder="País">
                 <textarea name="description" rows="4" cols="56" placeholder="Descripción de la necesidad"></textarea>
-                <input id="boton-enviar" type="submit" name="" value="Enviar">
+                <button
+                  class="g-recaptcha"
+                  data-sitekey="6Leq2TQUAAAAAMrEtsMqzn_L4F9dde0uEYD-P4hd"
+                  data-callback="onSubmit">
+                  Enviar
+                </button>
               </form>
             </div>
           </div>
@@ -252,3 +258,4 @@
       </div>
   </body>
 </html>
+<?php include_once('../sendmail.php'); ?>
