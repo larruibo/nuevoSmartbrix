@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="logo.png" />
     <meta name="viewport" content="width=device-width" />
     <title>SmartBrix - Espacios Modulares.</title>
     <link rel="stylesheet" href="css/index.css">
@@ -10,7 +11,6 @@
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="js/index.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <link rel="icon" type="image/png" href="logo.png" />
   </head>
   <body>
       <div class="banner">
