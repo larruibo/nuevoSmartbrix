@@ -1316,8 +1316,15 @@ body{
   .contenido{
     height: 3650px;
   }
+  .menu-vista-adicional{
+    width: 70%;
+    margin-bottom: 20px;
+  }
   .menu-vista-adicional li{
-    font-size: 18px;
+    font-size: 17px;
+  }
+  .titulo-info-vista-adicional h3{
+    font-size: 30px;
   }
   .contenido-info-vista-adicional p{
     line-height: normal;
@@ -1359,7 +1366,7 @@ body{
     width: 100%;
   }
   #proyectos{
-    height: 3250px !important;
+    height: 3300px !important;
   }
   #ventajas{
     height: 2040px !important;

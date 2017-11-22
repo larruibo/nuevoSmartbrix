@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
-    <title>Ventajas - SmartBrix.</title>
+    <title>Educativas - SmartBrix.</title>
     <link rel="stylesheet" href="../css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
@@ -21,7 +21,7 @@
         </div>
         <div class="nav-banner">
           <a href="../nosotros/">Nosotros</a>
-          <a href="../salones">Educativas</a>
+          <a href="../salones" class="smartbrix">Educativas</a>
           <a href="../oficinas">Oficinas</a>
           <a href="../bodegas">Bodegas</a>
           <a href="../campamentos">Campamentos</a>
@@ -36,13 +36,13 @@
         </div>
       </div>
     </div>
-      <div id="ventajas" class="contenido-con-imagen" style="height: 1280px;">
+      <div class="contenido-con-imagen">
         <div class="banner-imagen">
-          <img src="../images/Fotos/Finales/carpa.jpg" alt="">
+          <img src="../images/Fotos/Finales/salones.jpg" alt="">
           <div class="margen-contenido">
             <div class="texto-imagen">
-              <h3>Ventajas SmartBrix</h3>
-              <p>Tras varios años en el mercado Smartbrix se ha logrado consolidar como una de las empresas líderes en el mercado de construcción modular en Colombia.</p>
+              <h3>Instituciones Educativas</h3>
+              <p>Nuestras construcciones ofrece una variedad de espacio institucional para todo tipo de mercado, desde jardines infantiles hasta universidades.</p>
             </div>
           </div>
         </div>
@@ -50,37 +50,66 @@
           <div class="margen-contenido">
             <div class="contenido-info-vista-principal">
               <div class="texto-info-vista-principal">
-                <p>Smartbrix es la compañía con más trascendencia en construcción modular en colombia, con grandes ventajas que te harán escoger la mejor opción para tu proyecto o empresa. Entre las ventajas de nuestra compañía es la utilización de productos de alta calidad utilizando tecnología internacional de vanguardia, incluyendo versatilidad modular de rápida entrega en tiempos 10 veces más rápidos que la construcción tradicional. Ofrecemos soluciones de elementos autoportante, desmontable y temporal, garantizando ahorro de energía, larga vida útil y reutilización en nuevos proyectos. Smartbrix cumple con todas las normativa en construcción modular que incluye: resistencia sísmica NSR-10, Iluminación y alumbrado público RETILAP, Instalaciones eléctricas RETIE y Resistencia al fuego ASTM - C726.</p>
+                <p>Las construcciones modulares de SmartBrix son la solución perfecta para generar instituciones
+                    educativas atractivas y con la mejor calidad donde se requieren espacios de forma rápida
+                    según la demanda escolar. Ofrecemos aulas amplias dotadas con la mejor tecnología,
+                    auditorios versátiles, salas de estudio con los mejores acabados, laboratorios, gimnasios y más.
+                </p>
+                <p>Nuestros diseños son flexibles y tiene la capacidad de adaptarse para generar el
+                    ambiente ideal para los estudiantes. Además cuentan con las misma normativa de
+                    seguridad que las construcciones tradicionales.
+                </p>
               </div>
               <div class="listas-info-vista-principal">
-                  <div class="ventajas-descripcion">
-                    <div class="ventaja">
-                      <h5>Productos de caludad</h5>
-                      <p>Utilizamos tecnología internacional de vanguardia y los más altos estándares de calidad.</p>
-                    </div>
-                    <div class="ventaja">
-                      <h5>Versatilidad modular</h5>
-                      <p>Flexibilidad vertical y horizontal.</p>
-                    </div>
-                    <div class="ventaja">
-                      <h5>Rapidez de entrega</h5>
-                      <p>Tiempos hasta 10 veces más rápidos que la construcción tradicional.</p>
-                    </div>
-                    <div class="ventaja">
-                      <h5>Ahorro de energía</h5>
-                      <p>Por sus propiedades termoacústicas, se aumenta la eficiencia de aires acondicionados y sistemas de ventilación.</p>
-                    </div>
-                    <div class="ventaja">
-                      <h5>Larga vida útil</h5>
-                      <p>Pueden ser desmontados y reutilizados en nuevos proyectos.</p>
-                    </div>
-                    <div class="ventaja">
-                      <h5>Mínimos requerimientos</h5>
-                      <p>Es un elemento autoportante y desmontable.</p>
-                    </div>
+                <div class="listas">
+                  <div class="lista-izquierda">
+                    <h5>Aplicaciones:</h5>
+                    <ul>
+                      <li>Aulas prefabricadas</li>
+                      <li>Auditorios</li>
+                      <li>Salas de estudio</li>
+                      <li>Laboratorios</li>
+                      <li>Gimnasios</li>
+                      <li>Oficinas de decanatura</li>
+                    </ul>
                   </div>
+                  <div class="lista-derecha">
+                    <h5>Espacios complementarios:</h5>
+                    <ul>
+                      <li>Recepción</li>
+                      <li>Enfermería</li>
+                      <li>Cafetería</li>
+                      <li>Comedor</li>
+                      <li>Cocina</li>
+                      <li>Cuartos técnicos</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-
+            </div>
+        </div>
+      </div>
+      <div class="margen-formulario">
+        <div class="margen-contenido">
+          <div id="formulario" class="contacto">
+            <div class="formulario">
+              <div class="texto-contacto">
+                <span>Solicita</span>
+                <span><strong>Tu cotización</strong></span>
+              </div>
+              <form id="contactForm" class="form" action="./" method="post">
+                <input type="text" name="name" value="" placeholder="Nombre: ">
+                <input type="text" name="telephone" value="" placeholder="Teléfono: ">
+                <input type="text" name="email" value="" placeholder="E-mail: ">
+                <input type="text" name="country" value="" placeholder="País">
+                <textarea name="description" rows="4" cols="56" placeholder="Descripción de la necesidad"></textarea>
+                <button
+                  class="g-recaptcha"
+                  data-sitekey="6Leq2TQUAAAAAMrEtsMqzn_L4F9dde0uEYD-P4hd"
+                  data-callback="onSubmit">
+                  Enviar
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -88,7 +117,7 @@
       <div id="menu-responsive" class="menu-banner-responsive">
         <ul>
           <li><a href="../nosotros/">Nosotros</a></li>
-          <li><a href="../salones">Educativas</a></li>
+          <li><a href="../salones" class="smartbrix">Educativas</a></li>
           <li><a href="../oficinas">Oficinas</a></li>
           <li><a href="../bodegas">Bodegas</a></li>
           <li><a href="../campamentos">Campamentos</a></li>
@@ -132,31 +161,6 @@
           </div>
         </div>
       </div>
-      <div class="margen-formulario">
-        <div class="margen-contenido">
-          <div id="formulario" class="contacto">
-            <div class="formulario">
-              <div class="texto-contacto">
-                <span>Solicita</span>
-                <span><strong>Tu cotización</strong></span>
-              </div>
-              <form id="contactForm" class="form" action="./" method="post">
-                <input type="text" name="name" value="" placeholder="Nombre: ">
-                <input type="text" name="telephone" value="" placeholder="Teléfono: ">
-                <input type="text" name="email" value="" placeholder="E-mail: ">
-                <input type="text" name="country" value="" placeholder="País">
-                <textarea name="description" rows="4" cols="56" placeholder="Descripción de la necesidad"></textarea>
-                <button
-                  class="g-recaptcha"
-                  data-sitekey="6Leq2TQUAAAAAMrEtsMqzn_L4F9dde0uEYD-P4hd"
-                  data-callback="onSubmit">
-                  Enviar
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="footer">
         <div class="contenido-footer">
           <div class="margen-contenido">
@@ -186,4 +190,4 @@
       </div>
   </body>
 </html>
-<!-- <?php include_once('../sendmail.php'); ?> -->
+<?php include_once('../sendmail.php'); ?>

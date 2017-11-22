@@ -186,4 +186,4 @@
       </div>
   </body>
 </html>
-<!-- <?php include_once('../sendmail.php'); ?> -->
+<?php include_once('../sendmail.php'); ?>
