@@ -12,7 +12,10 @@ $("#dos").click(function(){
   $("#tamanio").removeClass("extendido");
   $("#dos").toggleClass("smartbrix");
   $(".conte").hide();
-  $("#tamanio").toggleClass("extendido");
+  if ($(window).width() > 780)
+  {
+    $("#tamanio").toggleClass("extendido");
+  }
   $("#info-dos").slideToggle();
 })
 $("#tres").click(function(){

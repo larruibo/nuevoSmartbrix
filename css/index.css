@@ -7,6 +7,12 @@ body{
   position: relative;
   width: 100%;
 }
+.mapa-grande{
+  display: block;
+}
+.mapa-pequeno{
+  display: none;
+}
 .margen-contenido{
   max-width: 1260px;
   position: relative;
@@ -909,7 +915,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #37ba3a;
+  background-color: black;
   position: absolute;
   left: 0;
   text-align: center;
@@ -917,8 +923,8 @@ body{
   transition: .2s;
   cursor: pointer;
 }
-.menu-banner:hover{
-  background-color: #247c25;
+.menu-banner h1:hover{
+  color: #247c25;
 }
 .menu-banner h1{
   font-size: 16px;
@@ -1137,5 +1143,222 @@ body{
   }
   .extendido{
     height: 1850px !important;
+  }
+  .local-footer{
+    width: 70%;
+  }
+  .local-footer span{
+    font-size: 13px;
+  }
+  .columna-3{
+    width: 30%;
+  }
+  .contenido-info-vista-adicional{
+    text-align: center;
+  }
+  .texto-info-vista-principal{
+    width: 95%;
+    position: relative;
+  }
+  .listas-info-vista-principal{
+    width: 100%;
+    position: relative;
+  }
+  .contenido-con-imagen{
+    height: 1600px !important;
+  }
+  .banner-imagen img{
+    object-position: 0 !important;
+  }
+  .menu-vista-adicional{
+    height: auto;
+  }
+  #proyectos{
+    height: 1900px !important;
+  }
+  #ventajas{
+    height: 1680px !important;
+  }
+}
+@media screen and (max-width: 610px)
+{
+  .contenido{
+    height: 3500px;
+  }
+  .ventanas-flotantes{
+    height: 1080px;
+  }
+  .contenido-flotante{
+    width: 100%;
+  }
+  .info-adicional{
+    height: 1500px;
+  }
+  .contenido-adicional{
+    height: 500px;
+  }
+  .imagen-contenido-peq{
+    height: 250px;
+    width: 100%;
+  }
+  .imagen-contenido-gra{
+    height: 500px;
+  }
+  .video-contenido-gra{
+    top: 132px;
+  }
+  .imagen-contenido-peq img{
+    height: 250px;
+  }
+  .texto-adicional{
+    height: 250px;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 565px)
+{
+  .menu-banner{
+    width: 100px;
+  }
+  .texto-adicional p{
+    line-height: normal;
+  }
+  .titulo-inicio h1{
+    font-size: 19px;
+  }
+  .sobre-footer{
+    height: 210px;
+  }
+  .local-footer{
+    width: 97%;
+  }
+  .telefono-footer{
+    width: 97%;
+  }
+  .hora-footer{
+    top: 140px;
+    right: auto;
+    left: 3%;
+    text-align: left;
+    width: 97%;
+  }
+  .boton-footer{
+    right: 3%;
+    top: 75px;
+  }
+  .columna-1{
+    display: none;
+  }
+  .columna-2{
+    display: none;
+  }
+  .columna-3{
+    width: 95%;
+  }
+  .columna-3 h4{
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .columna-3 a{
+    font-size: 30px;
+  }
+  .fila-1{
+    text-align: center;
+  }
+  .contenido{
+    height: 3580px;
+  }
+  .contenido-vista-adicional{
+    height: 1620px !important;
+  }
+  .extendido{
+    height: 1980px !important;
+  }
+  .contenido-info-vista-adicional p{
+    padding-right: 0;
+  }
+  #ventajas{
+    height: 1840px !important;
+  }
+}
+
+@media screen and (max-width: 460px)
+{
+  .menu-banner-responsive{
+    width: 100%;
+  }
+  .menu-banner-responsive ul{
+    padding-left: 0;
+    text-align: center;
+  }
+  .contacto{
+    width: 100%;
+  }
+  .formulario{
+    background-color: rgba(0,0,0,0.95);
+  }
+  .sobre-footer{
+    height: 280px;
+  }
+  .boton-footer{
+    top: 210px;
+    left: 0;
+    right: 0;
+    width: 150px;
+    text-align: inherit;
+    margin: 0 auto;
+  }
+  .boton-footer button{
+    margin: 0;
+  }
+  .contenido{
+    height: 3650px;
+  }
+  .contenido-info-vista-adicional p{
+    line-height: normal;
+  }
+  .contenido-vista-adicional{
+    height: 1700px !important;
+  }
+  .extendido{
+    height: 2100px !important;
+  }
+  .mapa-grande{
+    display: none;
+  }
+  .mapa-pequeno{
+    display: block;
+    margin: 0 auto;
+  }
+  .texto-imagen{
+    width: 96%;
+    padding: 3% 2%;
+    margin-left: 0;
+    top: auto;
+    bottom: 0;
+    height: auto;
+  }
+  .texto-imagen h3{
+    font-size: 30px;
+  }
+  .contenido-con-imagen{
+    height: 1780px !important;
+  }
+  .banner-imagen{
+    height: 375px;
+  }
+  .proyecto{
+    width: 100%;
+  }
+  #proyectos{
+    height: 3250px !important;
+  }
+  #ventajas{
+    height: 2040px !important;
+  }
+  .ventaja{
+    width: 50%;
   }
 }
