@@ -33,7 +33,6 @@ body{
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 6%;
   color: #fff;
   overflow: hidden;
 }
@@ -45,7 +44,7 @@ body{
   overflow: hidden;
 }
 .nav-banner{
-  width:55%;
+  width:900px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -57,8 +56,8 @@ body{
 .nav-banner a{
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
   color: #fff;
   font-weight: 400;
   padding-top: 5px;
@@ -97,7 +96,7 @@ body{
 
 
 .contenido{
-  height: 2100px;
+  height: 3050px;
   width: 100%;
   position: relative;
 }
@@ -232,6 +231,41 @@ body{
   position: relative;
   margin-top: 50px;
 }
+.video-adicional{
+  width: 100%;
+  height: 630px;
+  position: relative;
+  margin-top: 50px;
+}
+.logo-adicional{
+  width: 100%;
+  height: 260px;
+  position: relative;
+  margin-top: 50px;
+}
+.logo-adicional img{
+  width: 100%;
+}
+.logo-adicional h1{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.logo-adicional-nosotros{
+  height: 900px;
+}
+.logo-adicional-nosotros img{
+  width: 100%;
+}
+.contenido-logo-adicional-nosotros{
+  width: 55%;
+  margin: 0 auto;
+}
+.contenido-logo-adicional{
+  width: calc(100%/3);
+  position: relative;
+  display: inline-block;
+}
 .contenido-adicional{
   width: calc(100%/3);
   height: 630px;
@@ -260,15 +294,18 @@ body{
   text-align: justify;
 }
 .texto-adicional a{
-  color: #646464;
+  text-decoration: none;
+  color: white;
   font-size: 16px;
   line-height: 1.875;
   margin: 30px 30px 0 30px;
-  position: absolute;
-  bottom: 50px;
+  position: relative;
+  background-color: #37ba3a;
+  padding: 3px 10px;
+  transition: .3s;
 }
 .texto-adicional a:hover{
-  color: #37ba3a;
+  background-color: #247c25;
 }
 .imagen-contenido-peq{
   height: 230px;
@@ -288,13 +325,12 @@ body{
 }
 .video-contenido-gra{
   width: 100%;
-  height: 236px;
+  height: 630px;
   position: absolute;
-  top: 165px;
 }
 .video-contenido-gra iframe{
   width: 100%;
-  height: 236px;
+  height: 630px;
 }
 .imagen-contenido-gra img{
   height: 100%;
@@ -596,7 +632,7 @@ body{
   width: 60%;
   margin-left: 20%;
   position: absolute;
-  top: 30px;
+  top: 10px;
 }
 .texto-contacto span{
   display: block;
@@ -609,12 +645,25 @@ body{
 .texto-contacto strong{
   color: #37ba3a;
 }
+.telefono-contacto{
+  width: 60%;
+  margin-left: 20%;
+  position: absolute;
+  bottom: 10px;
+}
+.telefono-contacto span{
+  display: block;
+  color: white;
+  font-size: 16px;
+  border-left: 4px solid #37ba3a;
+  padding-left: 5%;
+}
 .form{
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   position: absolute;
-  top:140px;
+  top: 90px;
   font-size: 16px;
 }
 .form input{
@@ -783,13 +832,37 @@ body{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  transition: .3s;
+}
+.boton-descarga{
+  width: 380px;
+  height: 30px;
+  position: absolute;
+  top: 380px;
+  z-index: 3;
+  padding: 10px 20px;
+  margin-left: 10%;
+  background-color: rgba(55,186,58,0.8);
+}
+.boton-descarga h3{
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0 0 10px;
+  padding: 0;
+  text-align: center;
 }
 .texto-imagen{
   background-color: rgba(0,0,0,0.6);
   width: 360px;
   height: 200px;
   position: absolute;
-  top: -350px;
+  top: 140px;
   z-index: 3;
   padding: 20px 30px;
   margin-left: 10%;
@@ -844,7 +917,7 @@ body{
   display: block;
   margin-bottom: 18px;
   font-weight: 600;
-  width: 35%;
+  width: 80%;
 }
 .columna-2{
   width: 23%;
@@ -862,7 +935,7 @@ body{
   display: block;
   margin-bottom: 20px;
   font-weight: 600;
-  width: 35%;
+  width: 80%;
 }
 .columna-3{
   width: 20%;
@@ -991,6 +1064,9 @@ body{
 
 @media screen and (max-width: 860px)
 {
+  .info-adicional{
+    height: 900px;
+  }
   .logo-banner{
     position: absolute;
     width: 100%;
@@ -1000,7 +1076,7 @@ body{
     display: none;
   }
   .contenido{
-    height: 2550px;
+    height: 3450px;
   }
   .contacto-banner{
     width: 100px;
@@ -1035,14 +1111,10 @@ body{
     width: 100%;
     height: 300px;
   }
-  .video-contenido-gra{
-    width: 100%;
-    height: 236px;
-    position: absolute;
-    top: 32px;
-  }
   .texto-adicional a{
-    bottom: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 12px;
   }
   .sobre-footer{
     height: 140px;
@@ -1076,6 +1148,16 @@ body{
   }
   #proyectos{
     height: 1650px !important;
+  }
+  .logo-adicional-nosotros{
+    height: 900px;
+  }
+  .logo-adicional-nosotros img{
+    width: 100%;
+  }
+  .contenido-logo-adicional-nosotros{
+    width: 80%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 670px)
@@ -1115,9 +1197,7 @@ body{
   .imagen-contenido-gra{
     height: 350px;
   }
-  .video-contenido-gra{
-    top: 57px;
-  }
+
   .contenido-vista-adicional{
     padding-top: 60px;
   }
@@ -1183,7 +1263,17 @@ body{
 @media screen and (max-width: 610px)
 {
   .contenido{
-    height: 3500px;
+    height: 5000px;
+  }
+  .logo-adicional{
+    height: 700px;
+  }
+  .contenido-logo-adicional{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .contenido-logo-adicional img{
+    width: 100%;
   }
   .ventanas-flotantes{
     height: 1080px;
@@ -1204,9 +1294,6 @@ body{
   .imagen-contenido-gra{
     height: 500px;
   }
-  .video-contenido-gra{
-    top: 132px;
-  }
   .imagen-contenido-peq img{
     height: 250px;
   }
@@ -1219,6 +1306,18 @@ body{
 }
 @media screen and (max-width: 565px)
 {
+  .video-adicional{
+    height: 236px;
+  }
+  .video-contenido-gra{
+    width: 100%;
+    height: 236px;
+
+  }
+  .video-contenido-gra iframe{
+    width: 100%;
+    height: 236px;
+  }
   .menu-banner{
     width: 100px;
   }
@@ -1314,7 +1413,7 @@ body{
     margin: 0;
   }
   .contenido{
-    height: 3650px;
+    height: 4530px;
   }
   .menu-vista-adicional{
     width: 70%;
@@ -1349,12 +1448,17 @@ body{
     width: 96%;
     padding: 3% 2%;
     margin-left: 0;
-    top: auto;
-    bottom: 0;
     height: auto;
+    bottom:-320px;
   }
   .texto-imagen h3{
     font-size: 30px;
+  }
+  .boton-descarga{
+    width: 96%;
+    margin-left: 0;
+    padding: 3% 2%;
+    top: 320px;
   }
   .contenido-con-imagen{
     height: 1780px !important;
@@ -1373,5 +1477,13 @@ body{
   }
   .ventaja{
     width: 50%;
+  }
+
+  .logo-adicional-nosotros img{
+    width: 100%;
+  }
+  .contenido-logo-adicional-nosotros{
+    width: 90%;
+    margin: 40px auto;
   }
 }
