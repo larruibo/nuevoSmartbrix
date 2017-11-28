@@ -64,6 +64,7 @@ body{
   padding-bottom: 5px;
   border-bottom: 3px solid black;
   transition: .2s;
+  text-align: center;
 
 }
 .nav-banner a:hover{
@@ -244,7 +245,8 @@ body{
   margin-top: 50px;
 }
 .logo-adicional img{
-  width: 100%;
+  width: 70%;
+  padding-left: 15%;
 }
 .logo-adicional h1{
   font-size: 32px;
@@ -254,12 +256,23 @@ body{
 .logo-adicional-nosotros{
   height: 900px;
 }
-.logo-adicional-nosotros img{
+.contenido-logo-adicional-nosotros{
+  width: 100%;
+  position: relative;
+}
+.imagen-certificado{
+  width: 40%;
+  display: inline-block;
+}
+.imagen-certificado img{
   width: 100%;
 }
-.contenido-logo-adicional-nosotros{
+.texto-certificado{
   width: 55%;
-  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 25%;
+
 }
 .contenido-logo-adicional{
   width: calc(100%/3);
@@ -840,7 +853,7 @@ body{
   width: 380px;
   height: 30px;
   position: absolute;
-  top: 380px;
+  top: 350px;
   z-index: 3;
   padding: 10px 20px;
   margin-left: 10%;
@@ -862,7 +875,7 @@ body{
   width: 360px;
   height: 200px;
   position: absolute;
-  top: 140px;
+  top: 110px;
   z-index: 3;
   padding: 20px 30px;
   margin-left: 10%;
@@ -1014,8 +1027,8 @@ body{
 .menu-banner-responsive{
   position: fixed;
   top: 60px;
-  width: 200px;
-  height: 370px;
+  width: 300px;
+  height: auto;
   z-index: 20;
   background-color: rgba(0, 0, 0, 0.95);
 }
@@ -1031,6 +1044,9 @@ body{
 .menu-banner-responsive a{
   color: white;
   text-decoration: none;
+}
+.imagen-contenido-inicio{
+  display: none;
 }
 
 
@@ -1062,7 +1078,7 @@ body{
   }
 }
 
-@media screen and (max-width: 860px)
+@media screen and (max-width: 1060px)
 {
   .info-adicional{
     height: 900px;
@@ -1156,8 +1172,19 @@ body{
     width: 100%;
   }
   .contenido-logo-adicional-nosotros{
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+  }
+  .imagen-certificado{
+    width: 50%;
+  }
+  .texto-certificado{
+    width: 40%;
+  }
+  .imagen-contenido-inicio{
+    display: block;
+  }
+  .video-contenido video{
+    display: none;
   }
 }
 @media screen and (max-width: 670px)
@@ -1259,6 +1286,19 @@ body{
   #ventajas{
     height: 1680px !important;
   }
+  .imagen-certificado{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .texto-certificado{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .texto-certificado p{
+    text-align: center;
+    padding-right: 0;
+  }
 }
 @media screen and (max-width: 610px)
 {
@@ -1274,6 +1314,7 @@ body{
   }
   .contenido-logo-adicional img{
     width: 100%;
+    padding-left: 0;
   }
   .ventanas-flotantes{
     height: 1080px;
@@ -1478,6 +1519,9 @@ body{
   .ventaja{
     width: 50%;
   }
+  .imagen-certificado{
+    width: 80%;
+  }
 
   .logo-adicional-nosotros img{
     width: 100%;
@@ -1485,5 +1529,22 @@ body{
   .contenido-logo-adicional-nosotros{
     width: 90%;
     margin: 40px auto;
+  }
+
+}
+
+@media screen and (max-width: 350px)
+{
+  .texto-adicional p{
+    font-size: 14px;
+  }
+  .contenido-info-vista-adicional p{
+    font-size: 14px;
+  }
+  .contenido-info-vista-principal p{
+    font-size: 16px;
+  }
+  .listas h5{
+    font-size: 18px;
   }
 }

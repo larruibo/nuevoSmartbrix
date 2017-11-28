@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
-    <title>Bodegas - SmartBrix.</title>
+    <title>Campamentos - SmartBrix.</title>
     <link rel="stylesheet" href="../css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
@@ -21,10 +21,10 @@
         </div>
         <div class="nav-banner">
           <a href="../nosotros/">Nosotros</a>
-          <a href="../salones" class="smartbrix">Instituciones Educativas</a>
+          <a href="../salones">Instituciones Educativas</a>
           <a href="../oficinas">Oficinas</a>
-          <a href="../campamentos">Campamentos de Obra</a>
-          <a href="../bodegas" class="smartbrix">Bodegas</a>
+          <a href="../campamentos" class="smartbrix">Campamentos de Obra</a>
+          <a href="../bodegas">Bodegas</a>
           <a href="../ventajas">Ventajas</a>
           <a href="../proyectos">Proyectos</a>
         </div>
@@ -36,13 +36,13 @@
         </div>
       </div>
     </div>
-      <div class="contenido-con-imagen">
+      <div class="contenido-con-imagen" style="height: 1250px;">
         <div class="banner-imagen">
-          <img src="../images/Fotos/Finales/bodegas.jpeg" alt="" style="object-position: 0 -120px;">
+          <img src="../images/Fotos/Finales/campamentos.jpg" alt="" style="object-position: 0 -150px;">
           <div class="margen-contenido">
             <div class="texto-imagen">
-              <h3>Bodegas y Carpas</h3>
-              <p>Nuestras bodegas te ofrecen soluciones seguras y convenientes de acuerdo a tus necesidades.</p>
+              <h3>Campamentos de obra</h3>
+              <p>Smartbrix cuenta con las soluciones a tus necesidades y diseños únicos de todo tipo de campamentos para tu compañía.</p>
             </div>
             <a href="../images/Fotos/Finales/salones.jpg" download><div class="boton-descarga">
               <h3>Descargar PDF</h3>
@@ -53,13 +53,15 @@
           <div class="margen-contenido">
             <div class="contenido-info-vista-principal">
               <div class="texto-info-vista-principal">
-                <p>SmartBrix tenemos la solución adecuada para cada ocasión.</p>
-                <p>Gracias a nuestro sistema prefabricado podemos ofrecer estructuras metálicas con gran
-                  variedad de tamaños, formas y opciones de configuración para que todos los deseos se
-                  puedan resolver de la manera más rápida y eficaz.
+                <p>La flexibilidad de nuestras construcciones modulares le dan al entorno empresarial la
+                    oportunidad de crecer y adaptarse según las necesidad actuales.
                 </p>
-                <p>Al no necesitar columnas internas nuestras carpas y bodegas resultan la mejor opción para
-                optimizar cualquier espacio.
+                <p>La innovación, la eficiencia y aprovechamiento de cada espacio y la sostenibilidad, son la
+                    mezcla perfecta que hace de SmartBrix la solución de construcción ideal para cualquier
+                    negocio.
+                </p>
+                <p>Ofrecemos desde unidades básicas y cómodas hasta construcciones modulares de alta
+                    gama con tecnología de punta con el fin de suplir cualquier necesidad y presupuesto.
                 </p>
               </div>
               <div class="listas-info-vista-principal">
@@ -67,15 +69,32 @@
                   <div class="lista-izquierda">
                     <h5>Aplicaciones:</h5>
                     <ul>
-                      <li>Hall de eventos</li>
-                      <li>Showrooms</li>
-                      <li>Bodegas de almacenamiento</li>
-                      <li>Edificios industriales</li>
+                      <li>Oficinas gerenciales</li>
+                      <li>Oficinas abiertas</li>
+                      <li>Puestos de trabajo</li>
+                      <li>Cubículos para reuniones</li>
+                      <li>Salas de junta</li>
+                      <li>Salas de capacitaciones</li>
+                      <li>Auditorios</li>
+                    </ul>
+                  </div>
+                  <div class="lista-derecha">
+                    <h5>Espacios complementarios:</h5>
+                    <ul>
+                      <li>Recepción</li>
+                      <li>Cafetería</li>
+                      <li>Comedor</li>
+                      <li>Cocina</li>
+                      <li>Archivo rodante</li>
+                      <li>Cuartos técnicos</li>
+                      <li>Cuartos de aseo</li>
+                      <li>Baños</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -113,8 +132,8 @@
           <li><a href="../nosotros/">Nosotros</a></li>
           <li><a href="../salones">Instituciones Educativas</a></li>
           <li><a href="../oficinas">Oficinas</a></li>
-          <li><a href="../campamentos">Campamentos de Obra</a></li>
-          <li><a href="../bodegas" class="smartbrix">Bodegas</a></li>
+          <li><a href="../campamentos" class="smartbrix">Campamentos de Obra</a></li>
+          <li><a href="../bodegas">Bodegas</a></li>
           <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../proyectos">Proyectos</a></li>
         </ul>
@@ -183,4 +202,4 @@
       </div>
   </body>
 </html>
-<!-- <?php include_once('../sendmail.php'); ?> -->
+<?php include_once('../sendmail.php'); ?>

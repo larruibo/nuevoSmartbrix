@@ -1,3 +1,4 @@
+jQuery(document).ready(function(){
 var myIndex = 0;
 function carousel() {
     var i;
@@ -13,3 +14,4 @@ function carousel() {
     setTimeout(carousel, 4000);
 }
 carousel();
+});
