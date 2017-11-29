@@ -172,7 +172,7 @@
                 </div>
                 <div class="contenido-logo-adicional-nosotros">
                   <div class="imagen-certificado">
-                    <img src="../images/Certificaciones/certificado2.gif" alt="">
+                    <img src="../images/Certificaciones/certificado2.jpg" alt="">
                   </div>
                   <div class="texto-certificado">
                     <p>Texto descriptivo del certificado. Información adicional.</p>

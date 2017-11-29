@@ -49,10 +49,12 @@
               <h1>Líderes en <span>construccion modular prefabricada</span>, soluciones hasta el <span>90% más rápidas</span> y ambientalmente amigables.</h1>
             </div>
           </div>
-
         </div>
         <div class="ventanas-flotantes">
           <div class="margen-contenido">
+            <div class="certificado-inicio">
+              <img src="images/Certificaciones/certificado.png" alt="">
+            </div>
             <div class="contenido-flotante">
               <div class="texto-flotante" style="background-color: #37ba3a;">
                 <span>Instituciones Educativas</span>
@@ -121,13 +123,6 @@
             </div>
           </div>
         </div>
-        <div class="video-adicional">
-          <div class="margen-contenido">
-            <div class="video-contenido-gra">
-              <iframe width="420" height="236px" src="https://www.youtube.com/embed/ya0yf1qRUf0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
         <div class="info-adicional">
           <div class="margen-contenido">
             <div class="contenido-adicional">
@@ -171,10 +166,17 @@
               <img src="images/Certificaciones/certificado1.jpg" alt="">
             </div>
             <div class="contenido-logo-adicional">
-              <img src="images/Certificaciones/certificado2.gif" alt="">
+              <img src="images/Certificaciones/certificado2.jpg" alt="">
             </div>
             <div class="contenido-logo-adicional">
               <img src="images/Certificaciones/certificado3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="video-adicional">
+          <div class="margen-contenido">
+            <div class="video-contenido-gra">
+              <iframe width="420" height="236px" src="https://www.youtube.com/embed/ya0yf1qRUf0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
