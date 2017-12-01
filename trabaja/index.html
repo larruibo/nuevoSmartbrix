@@ -59,7 +59,7 @@
                   <input type="text" name="email" value="" placeholder="E-mail: ">
                   <input type="text" name="country" value="" placeholder="País">
                   <input type="text" name="job" value="" placeholder="Vacante">
-                  <label for="archivo">Carga tu hoja de vida (Archivos permitidos: .txt y .pdf)</label>
+                  <label for="archivo">Carga tu hoja de vida (Archivos permitidos: .doc y .pdf)</label>
                   <input type="file" name="archivo" id="archivo" style="border:none; padding-left:0;"required>
                   <button
                     class="g-recaptcha"
@@ -171,6 +171,7 @@
             <div class="fila-1 hb">
               <span>©2017 SmartBrix Espacios Modulares</span>
               <a href="../privacidad">Política de privacidad</a>
+              <a href="../trabaja">Trabaja con nosotros</a>
             </div>
           </div>
         </div>

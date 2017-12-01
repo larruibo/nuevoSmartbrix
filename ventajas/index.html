@@ -183,6 +183,7 @@
             <div class="fila-1 hb">
               <span>©2017 SmartBrix Espacios Modulares</span>
               <a href="../privacidad">Política de privacidad</a>
+              <a href="../trabaja">Trabaja con nosotros</a>
             </div>
           </div>
         </div>
