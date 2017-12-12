@@ -21,11 +21,11 @@
           </div>
           <div class="nav-banner">
             <a href="./nosotros/">Nosotros</a>
+            <a href="./ventajas">Ventajas</a>
             <a href="./salones">Instituciones Educativas</a>
             <a href="./oficinas">Oficinas</a>
             <a href="./campamentos">Campamentos de Obra</a>
             <a href="./bodegas">Bodegas</a>
-            <a href="./ventajas">Ventajas</a>
             <a href="./proyectos">Proyectos</a>
           </div>
           <div id="menu" class="menu-banner">
@@ -249,11 +249,11 @@
       <div id="menu-responsive" class="menu-banner-responsive">
         <ul>
           <li><a href="./nosotros/">Nosotros</a></li>
+          <li><a href="./ventajas">Ventajas</a></li>
           <li><a href="./salones">Instituciones Educativas</a></li>
           <li><a href="./oficinas">Oficinas</a></li>
           <li><a href="./campamentos">Campamentos de Obra</a></li>
           <li><a href="./bodegas">Bodegas</a></li>
-          <li><a href="./ventajas">Ventajas</a></li>
           <li><a href="./proyectos">Proyectos</a></li>
         </ul>
       </div>
