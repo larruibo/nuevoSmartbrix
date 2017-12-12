@@ -21,11 +21,11 @@
         </div>
         <div class="nav-banner">
           <a href="../nosotros/">Nosotros</a>
+          <a href="../ventajas">Ventajas</a>
           <a href="../salones">Instituciones Educativas</a>
           <a href="../oficinas">Oficinas</a>
           <a href="../campamentos" class="smartbrix">Campamentos de Obra</a>
           <a href="../bodegas">Bodegas</a>
-          <a href="../ventajas">Ventajas</a>
           <a href="../proyectos">Proyectos</a>
         </div>
         <div id="menu" class="menu-banner">
@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-      <div class="contenido-con-imagen" style="height: 1250px;">
+      <div class="contenido-con-imagen">
         <div class="banner-imagen">
           <img src="../images/Fotos/Finales/campamentos.jpg" alt="" style="object-position: 0 -150px;">
           <div class="margen-contenido">
@@ -53,15 +53,9 @@
           <div class="margen-contenido">
             <div class="contenido-info-vista-principal">
               <div class="texto-info-vista-principal">
-                <p>La flexibilidad de nuestras construcciones modulares le dan al entorno empresarial la
-                    oportunidad de crecer y adaptarse según las necesidad actuales.
+                <p><strong>SmartBrix</strong>, ofrece una amplia variedad de soluciones para alojar cómodamente tanto personal ejecutivo como trabajadores. Nuestro módulos están diseñados para soportar las más extremas condiciones de temperatura y humedad,  propias de climas tropicales, contando con materiales con las mejores especificaciones, tales como pisos de fibrocemento, paneles con caras de acero y rellenos de lana mineral, ventanas de PVC con doble vidrio con cámara, que maximizan la eficiencia térmica. Adicionalmente cumplen  con los códigos nacionales e internacionales en sus sistemas de electricidad e hidráulica y de sismo resistencia (NSR10).
                 </p>
-                <p>La innovación, la eficiencia y aprovechamiento de cada espacio y la sostenibilidad, son la
-                    mezcla perfecta que hace de SmartBrix la solución de construcción ideal para cualquier
-                    negocio.
-                </p>
-                <p>Ofrecemos desde unidades básicas y cómodas hasta construcciones modulares de alta
-                    gama con tecnología de punta con el fin de suplir cualquier necesidad y presupuesto.
+                <p>Como parte de nuestro servicio 360°, estamos en la capacidad de realizar proyectos llave en mano,  incluyendo obras complementarias de urbanismo, plantas de tratamiento de agua, mobiliario, redes internas de voz y datos y cualquier otro ítem que requiera su proyecto para estar funcionando de manera óptima y en el menor tiempo posible.
                 </p>
               </div>
               <div class="listas-info-vista-principal">
@@ -69,6 +63,7 @@
                   <div class="lista-izquierda">
                     <h5>Aplicaciones:</h5>
                     <ul>
+                      <li>Alojamiento</li>
                       <li>Oficinas gerenciales</li>
                       <li>Oficinas abiertas</li>
                       <li>Puestos de trabajo</li>
@@ -130,11 +125,11 @@
       <div id="menu-responsive" class="menu-banner-responsive">
         <ul>
           <li><a href="../nosotros/">Nosotros</a></li>
+          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../salones">Instituciones Educativas</a></li>
           <li><a href="../oficinas">Oficinas</a></li>
           <li><a href="../campamentos" class="smartbrix">Campamentos de Obra</a></li>
           <li><a href="../bodegas">Bodegas</a></li>
-          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../proyectos">Proyectos</a></li>
         </ul>
       </div>

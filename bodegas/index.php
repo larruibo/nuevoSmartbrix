@@ -21,11 +21,11 @@
         </div>
         <div class="nav-banner">
           <a href="../nosotros/">Nosotros</a>
-          <a href="../salones" class="smartbrix">Instituciones Educativas</a>
+          <a href="../ventajas">Ventajas</a>
+          <a href="../salones">Instituciones Educativas</a>
           <a href="../oficinas">Oficinas</a>
           <a href="../campamentos">Campamentos de Obra</a>
           <a href="../bodegas" class="smartbrix">Bodegas</a>
-          <a href="../ventajas">Ventajas</a>
           <a href="../proyectos">Proyectos</a>
         </div>
         <div id="menu" class="menu-banner">
@@ -52,24 +52,20 @@
         <div class="contenido-vista-principal">
           <div class="margen-contenido">
             <div class="contenido-info-vista-principal">
-              <div class="texto-info-vista-principal">
-                <p>SmartBrix tenemos la solución adecuada para cada ocasión.</p>
-                <p>Gracias a nuestro sistema prefabricado podemos ofrecer estructuras metálicas con gran
-                  variedad de tamaños, formas y opciones de configuración para que todos los deseos se
-                  puedan resolver de la manera más rápida y eficaz.
-                </p>
-                <p>Al no necesitar columnas internas nuestras carpas y bodegas resultan la mejor opción para
-                optimizar cualquier espacio.
-                </p>
+              <div class="texto-info-vista-principal" style="width: 48%;">
+                <p>Las estructuras de despliegue rápido para bodegaje e industria de <strong>SmartBrix</strong>, ofrecen una solución rápida y de alta calidad.</p>
+                <p>El sistema de construcción, consiste en un marco de acero o aluminio, que puede ser <strong>montado y desmontado rápidamente</strong>. Las posibilidades para el equipamiento se extienden desde las estructuras simples, no aisladas, hasta el pabellón de almacenamiento permanente, totalmente aislado. Su nueva solución industrial o de almacenamiento es construida dentro de unos pocos días para que esté rápidamente a su disposición. Si se decide por la variante permanente, usted tiene la opción de una amplia gama de barreras, puertas, ventanas, etc., según sus necesidades.
+                Adicionalmente y como parte de nuestro servicio 360°, estamos en la capacidad de realizar proyectos llave en mano, incluyendo obras complementarias de urbanismo, plantas de tratamiento de agua, mobiliario, redes internas de voz y datos y cualquier otro ítem que requiera su proyecto para estar funcionando de manera óptima y en el menor tiempo posible. </p>
               </div>
-              <div class="listas-info-vista-principal">
+              <div class="listas-info-vista-principal" style="width: 40%;">
                 <div class="listas">
                   <div class="lista-izquierda">
                     <h5>Aplicaciones:</h5>
                     <ul>
+                      <li>Bodegas de almacenamiento</li>
+                      <li>Fábricas</li>
                       <li>Hall de eventos</li>
                       <li>Showrooms</li>
-                      <li>Bodegas de almacenamiento</li>
                       <li>Edificios industriales</li>
                     </ul>
                   </div>
@@ -111,11 +107,11 @@
       <div id="menu-responsive" class="menu-banner-responsive">
         <ul>
           <li><a href="../nosotros/">Nosotros</a></li>
+          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../salones">Instituciones Educativas</a></li>
           <li><a href="../oficinas">Oficinas</a></li>
           <li><a href="../campamentos">Campamentos de Obra</a></li>
           <li><a href="../bodegas" class="smartbrix">Bodegas</a></li>
-          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../proyectos">Proyectos</a></li>
         </ul>
       </div>

@@ -610,6 +610,7 @@ body{
 .contenido-info-vista-principal p{
   font-size: 18px;
   text-align: justify;
+  margin-bottom: 0;
 }
 .texto-info-vista-principal{
   width: 40%;
@@ -905,7 +906,7 @@ body{
 
 .contenido-con-imagen{
   padding-top: 60px;
-  height: 1200px;
+  height: 1380px;
   width: 100%;
   position: relative;
 }
@@ -1127,6 +1128,9 @@ body{
 
 @media screen and (max-width: 1259px)
 {
+  .banner-imagen img{
+    object-position: 0 !important;
+  }
   .logo-banner{
     left: 2%;
     width: 14%;
@@ -1138,7 +1142,7 @@ body{
     height: 1420px !important;
   }
   .contenido-con-imagen{
-    height: 1260px;
+    height: 1500px !important;
   }
   .contacto{
     position: fixed;
@@ -1238,7 +1242,7 @@ body{
     height: 1740px !important;
   }
   .contenido-con-imagen{
-    height: 1450px !important;
+    height: 1740px !important;
   }
   #proyectos{
     height: 1650px !important;
@@ -1360,11 +1364,11 @@ body{
     text-align: center;
   }
   .texto-info-vista-principal{
-    width: 95%;
+    width: 95% !important;
     position: relative;
   }
   .listas-info-vista-principal{
-    width: 100%;
+    width: 100% !important;
     position: relative;
   }
   .contenido-con-imagen{
@@ -1609,7 +1613,7 @@ body{
     top: 320px;
   }
   .contenido-con-imagen{
-    height: 1780px !important;
+    height: 2020px !important;
   }
   .banner-imagen{
     height: 375px;
@@ -1621,7 +1625,7 @@ body{
     height: 3300px !important;
   }
   #ventajas{
-    height: 2040px !important;
+    height: 1840px !important;
   }
   .ventaja{
     width: 50%;

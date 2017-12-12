@@ -22,11 +22,11 @@
         </div>
         <div class="nav-banner">
           <a href="../nosotros/">Nosotros</a>
+          <a href="../ventajas">Ventajas</a>
           <a href="../salones" class="smartbrix">Instituciones Educativas</a>
           <a href="../oficinas">Oficinas</a>
           <a href="../campamentos">Campamentos de Obra</a>
           <a href="../bodegas">Bodegas</a>
-          <a href="../ventajas">Ventajas</a>
           <a href="../proyectos">Proyectos</a>
         </div>
         <div id="menu" class="menu-banner">
@@ -55,14 +55,9 @@
           <div class="margen-contenido">
             <div class="contenido-info-vista-principal">
               <div class="texto-info-vista-principal">
-                <p>Las construcciones modulares de SmartBrix son la solución perfecta para generar instituciones
-                    educativas atractivas y con la mejor calidad donde se requieren espacios de forma rápida
-                    según la demanda escolar. Ofrecemos aulas amplias dotadas con la mejor tecnología,
-                    auditorios versátiles, salas de estudio con los mejores acabados, laboratorios, gimnasios y más.
+                <p>El incremento de la población estudiantil, los cambios demográficos y la desactualización de edificaciones, son factores que inciden en la demanda por espacios educativos nuevos. SmartBrix, ofrece una amplia gama de soluciones para dicha necesidad, desde salones individuales, hasta universidades completas, teniendo tiempos de entrega hasta un <strong>90% más rápidos que la construcción tradicional</strong>, además contando con experiencia en dichos proyecto con algunas de las más importantes universidades.
                 </p>
-                <p>Nuestros diseños son flexibles y tiene la capacidad de adaptarse para generar el
-                    ambiente ideal para los estudiantes. Además cuentan con las misma normativa de
-                    seguridad que las construcciones tradicionales.
+                <p>Como parte de nuestro servicio 360°, estamos en la capacidad de realizar proyectos llave en mano,  incluyendo obras complementarias de urbanismo, plantas de tratamiento de agua, mobiliario, redes internas de voz y datos y cualquier otro ítem que requiera su proyecto para estar funcionando de manera óptima y en el menor tiempo posible. Todo lo anterior con la posibilidad de expandirse horizontal y verticalmente (Hasta 4 pisos).
                 </p>
               </div>
               <div class="listas-info-vista-principal">
@@ -126,11 +121,11 @@
       <div id="menu-responsive" class="menu-banner-responsive">
         <ul>
           <li><a href="../nosotros/">Nosotros</a></li>
+          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../salones" class="smartbrix">Instituciones Educativas</a></li>
           <li><a href="../oficinas">Oficinas</a></li>
           <li><a href="../campamentos">Campamentos de Obra</a></li>
           <li><a href="../bodegas">Bodegas</a></li>
-          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../proyectos">Proyectos</a></li>
         </ul>
       </div>

@@ -21,11 +21,11 @@
         </div>
         <div class="nav-banner">
           <a href="../nosotros/">Nosotros</a>
+          <a href="../ventajas" class="smartbrix">Ventajas</a>
           <a href="../salones">Instituciones Educativas</a>
           <a href="../oficinas">Oficinas</a>
           <a href="../campamentos">Campamentos de Obra</a>
           <a href="../bodegas">Bodegas</a>
-          <a href="../ventajas" class="smartbrix">Ventajas</a>
           <a href="../proyectos">Proyectos</a>
         </div>
         <div id="menu" class="menu-banner">
@@ -42,7 +42,7 @@
           <div class="margen-contenido">
             <div class="texto-imagen">
               <h3>Ventajas SmartBrix</h3>
-              <p>Tras varios años en el mercado Smartbrix se ha logrado consolidar como una de las empresas líderes en el mercado de construcción modular en Colombia.</p>
+              <p>Tras varios años en el mercado SmartBrix se ha consolidado como la empresa líder en el mercado de construcción modular latinoamericano.</p>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
           <div class="margen-contenido">
             <div class="contenido-info-vista-principal">
               <div class="texto-info-vista-principal">
-                <p>Smartbrix es la compañía con más trascendencia en construcción modular en colombia, con grandes ventajas que te harán escoger la mejor opción para tu proyecto o empresa. Entre las ventajas de nuestra compañía es la utilización de productos de alta calidad utilizando tecnología internacional de vanguardia, incluyendo versatilidad modular de rápida entrega en tiempos 10 veces más rápidos que la construcción tradicional. Ofrecemos soluciones de elementos autoportante, desmontable y temporal, garantizando ahorro de energía, larga vida útil y reutilización en nuevos proyectos. Smartbrix cumple con todas las normativa en construcción modular que incluye: resistencia sísmica NSR-10, Iluminación y alumbrado público RETILAP, Instalaciones eléctricas RETIE y Resistencia al fuego ASTM - C726.</p>
+                <p>En la construcción modular el edificio se construye en fábricas bajo condiciones controladas, utilizando los mismos materiales, estándares y normas que la construcción tradicional. Los edificios se producen en "módulos" que, cuando se ensamblan en el lugar, reflejan diseños y especificaciones iguales o mejores que las instalaciones más sofisticadas tradicionales, logrando tiempos de entrega hasta 10 veces más rápidos. </p>
               </div>
               <div class="listas-info-vista-principal">
                   <div class="ventajas-descripcion">
@@ -88,11 +88,11 @@
       <div id="menu-responsive" class="menu-banner-responsive">
         <ul>
           <li><a href="../nosotros/">Nosotros</a></li>
+          <li><a href="../ventajas" class="smartbrix">Ventajas</a></li>
           <li><a href="../salones">Instituciones Educativas</a></li>
           <li><a href="../oficinas">Oficinas</a></li>
           <li><a href="../campamentos">Campamentos de Obra</a></li>
           <li><a href="../bodegas">Bodegas</a></li>
-          <li><a href="../ventajas" class="smartbrix">Ventajas</a></li>
           <li><a href="../proyectos">Proyectos</a></li>
         </ul>
       </div>

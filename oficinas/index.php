@@ -21,11 +21,11 @@
         </div>
         <div class="nav-banner">
           <a href="../nosotros/">Nosotros</a>
+          <a href="../ventajas">Ventajas</a>
           <a href="../salones" >Instituciones Educativas</a>
           <a href="../oficinas" class="smartbrix">Oficinas</a>
           <a href="../campamentos">Campamentos de Obra</a>
           <a href="../bodegas">Bodegas</a>
-          <a href="../ventajas">Ventajas</a>
           <a href="../proyectos">Proyectos</a>
         </div>
         <div id="menu" class="menu-banner">
@@ -53,15 +53,9 @@
           <div class="margen-contenido">
             <div class="contenido-info-vista-principal">
               <div class="texto-info-vista-principal">
-                <p>La flexibilidad de nuestras construcciones modulares le dan al entorno empresarial la
-                    oportunidad de crecer y adaptarse según las necesidad actuales.
+                <p>Cuando se requiere una solución de espacio temporal o permanente,  que ofrezca máxima flexibilidad, configuraciones de diseño y <strong>rápida entrega</strong>, nuestras oficinas modulares son la respuesta perfecta, contando con un diseño moderno e innovador que permite la plena personalización de su proyecto.  Todos nuestros módulos están compuestos por materiales durables con los más altos estándares de calidad, que además cumplen  con los códigos nacionales e internacionales en sus sistemas de electricidad e hidráulica y de sismo resistencia (NSR10).
                 </p>
-                <p>La innovación, la eficiencia y aprovechamiento de cada espacio y la sostenibilidad, son la
-                    mezcla perfecta que hace de SmartBrix la solución de construcción ideal para cualquier
-                    negocio.
-                </p>
-                <p>Ofrecemos desde unidades básicas y cómodas hasta construcciones modulares de alta
-                    gama con tecnología de punta con el fin de suplir cualquier necesidad y presupuesto.
+                <p>Como parte de nuestro servicio 360°, estamos en la capacidad de realizar proyectos llave en mano,  incluyendo obras complementarias de urbanismo, plantas de tratamiento de agua, mobiliario, redes internas de voz y datos y cualquier otro ítem que requiera su proyecto para estar funcionando de manera óptima y en el menor tiempo posible. Todo lo anterior con la posibilidad de expandirse horizontal y verticalmente (Hasta 4 pisos).
                 </p>
               </div>
               <div class="listas-info-vista-principal">
@@ -130,11 +124,11 @@
       <div id="menu-responsive" class="menu-banner-responsive">
         <ul>
           <li><a href="../nosotros/">Nosotros</a></li>
+          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../salones">Instituciones Educativas</a></li>
           <li><a href="../oficinas" class="smartbrix">Oficinas</a></li>
           <li><a href="../campamentos">Campamentos de Obra</a></li>
           <li><a href="../bodegas">Bodegas</a></li>
-          <li><a href="../ventajas">Ventajas</a></li>
           <li><a href="../proyectos">Proyectos</a></li>
         </ul>
       </div>
